@@ -33,7 +33,6 @@ unsigned long run_time;
 
 void set_pmu_flag(void) { pmu_flag = true; }
 
-HardwareSerial Serial1(PA10, PA9);
 
 uint8_t write_buffer[10] = {0};
 uint8_t write_buffer_len = 0;
