@@ -56,10 +56,10 @@ static const struct entry btn_entries[NUM_OF_BTNS] =
   {'9','('},
   {']','}'},
   {'[','{'},
-  {KEY_RIGHT},
+  {KEY_RIGHT,KEY_END},
   {KEY_UP,KEY_PAGE_UP},
   {KEY_DOWN,KEY_PAGE_DOWN},
-  {KEY_LEFT}
+  {KEY_LEFT,KEY_HOME}
  
 };
 
